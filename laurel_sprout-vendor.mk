@@ -3784,7 +3784,23 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnss.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libloc_api_wds.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_wds.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_core.so \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocation_api.so
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocation_api.so \
+    vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib/vendor.qti.ims.factory@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.factory@1.1.so \
+    vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/vendor.qti.ims.factory@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factory@1.1.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/vendor.qti.ims.factory@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.factory@1.1.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/vendor.qti.ims.factory@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.factory@1.1.so \
+    vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib/vendor.qti.data.factory@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.3.so \
+    vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/vendor.qti.data.factory@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.3.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/vendor.qti.data.factory@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.3.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/vendor.qti.data.factory@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.3.so \
+    vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.1.so \
+    vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.1.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.1.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.1.so \
+    vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib/vendor.qti.hardware.data.lce@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.lce@1.0.so \
+    vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/vendor.qti.hardware.data.lce@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.lce@1.0.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/vendor.qti.hardware.data.lce@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.lce@1.0.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/vendor.qti.hardware.data.lce@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.lce@1.0.so
 
 PRODUCT_PACKAGES += \
     libfastcvopt \
